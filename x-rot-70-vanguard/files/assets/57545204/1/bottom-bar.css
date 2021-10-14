@@ -1,0 +1,86 @@
+.animate-button {
+    background-image: url(api/assets/files/Animate.png?id=56334563&branchId=a31c96c1-84e5-4fa8-968a-bd3323894cb6&t=b71cce91f1f2e6fc4597f0738e575df6);
+}
+
+.viewer-bottom {
+    display: flex;
+    flex-direction: column;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.clickable {
+    z-index: 21;
+    user-select: none;
+    text-align: center;
+    width: 64px;
+    height: 64px;
+    background-size: 64px 64px;
+    cursor: pointer;
+}
+
+.view-in-ar-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+}
+
+.color-button {
+    width: 48px;
+    height: 48px;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+}
+
+.color-button.selected {
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, .5);
+}
+
+.color-button-label {
+    margin-left: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+    white-space: nowrap;
+}
+
+.optionals-button-container {
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.optional-prev-arrow{
+    opacity: 0.2
+}
+
+.optional-next-arrow{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    opacity: 0.2
+}
+
+.buttons-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.ar-button-row{
+    display: flex;
+    justify-content: end;
+}
