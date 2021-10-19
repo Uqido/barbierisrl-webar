@@ -1,6 +1,6 @@
 ASSET_PREFIX = "";
 SCRIPT_PREFIX = "";
-SCENE_PATH = "1245131.json";
+SCENE_PATH = "1253750.json";
 CONTEXT_OPTIONS = {
     'antialias': true,
     'alpha': false,
@@ -8,7 +8,7 @@ CONTEXT_OPTIONS = {
     'preferWebGl2': true,
     'powerPreference': "default"
 };
-SCRIPTS = [ 56842619, 56842610, 56842627, 56842615, 56842974, 56859550, 56859587, 56924531 ];
+SCRIPTS = [ 58004419, 58004417, 58004420, 58004418, 58004422, 58004423, 58004426, 58004427 ];
 CONFIG_FILENAME = "config.json";
 INPUT_SETTINGS = {
     useKeyboard: true,
@@ -18,5 +18,5 @@ INPUT_SETTINGS = {
 };
 pc.script.legacy = false;
 PRELOAD_MODULES = [
-    {'moduleName' : 'BASIS', 'glueUrl' : 'files/assets/57449606/1/basis.wasm.js', 'wasmUrl' : 'files/assets/57449607/1/basis.wasm.wasm', 'fallbackUrl' : 'files/assets/57449605/1/basis.js', 'preload' : false},
+    {'moduleName' : 'BASIS', 'glueUrl' : 'files/assets/58004442/1/basis.wasm.js', 'wasmUrl' : 'files/assets/58004443/1/basis.wasm.wasm', 'fallbackUrl' : 'files/assets/58004441/1/basis.js', 'preload' : false},
 ];
